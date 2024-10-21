@@ -1,14 +1,8 @@
-# JavaSocketCommunication
-
-This repository demonstrates the implementation of socket-based communication in Java. It includes examples of establishing a connection between a server and multiple clients using TCP/IP sockets.
+# JavaSocketRPCCommunication
+This repository demonstrates the implementation of Remote Procedure Call (RPC) using Java sockets. It includes examples of establishing communication between a server and multiple clients via TCP/IP sockets to execute remote methods.
 
 Key Features:
-Client-side and server-side logic
-Message sending and receiving
+Client-side and server-side logic for RPC
+Message sending and receiving for remote method execution
 Handling multiple clients using threads
-Error management
-The code provides a solid foundation for building real-time communication systems, such as:
-
-Chat applications
-File transfers
-Other client-server-based applications
+Error management and exception handling
