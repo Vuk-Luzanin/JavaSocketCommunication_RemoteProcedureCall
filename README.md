@@ -42,3 +42,14 @@ The project is divided into the following packages:
    ```bash
    javac server/Server.java
    java server.Server
+   
+The server will start listening for client connections on port 5555. The server will handle each incoming request from a client in a separate thread.
+
+### Running the Client
+1. Open a terminal and navigate to the client directory.
+2. Compile and run the `Client.java` file.
+   ```bash
+   javac client/Client.java
+   java client.Client
+
+The client will connect to the server on localhost at port 5555 and start sending requests for operations (such as setting a variable or performing addition).
