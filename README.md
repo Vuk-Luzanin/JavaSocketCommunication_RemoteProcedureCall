@@ -53,3 +53,8 @@ The server will start listening for client connections on port 5555. The server 
    java client.Client
 
 The client will connect to the server on localhost at port 5555 and start sending requests for operations (such as setting a variable or performing addition).
+
+### Communication Protocol
+The client and server communicate using a custom protocol, where messages are formatted as:
+   ```bash
+  #<command>#<parameter1>#<parameter2>#
