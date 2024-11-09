@@ -1,13 +1,13 @@
-# Client-Server Application in Java
+# Client-Server Application in Java 🚀
 
 This project implements a simple client-server application in Java, where the client sends requests to the server for performing operations like setting a variable and adding numbers. The server handles the requests and responds with the results. The communication is done using TCP sockets.
 
 ## Overview
 
 The project consists of three main components:
-1. **Client**: Sends requests to the server to perform operations and waits for the server's response.
-2. **Server**: Receives requests from the client, processes them using specific services, and sends back the results.
-3. **Common**: Contains shared code used by both the client and server for communication (sending and receiving messages via sockets).
+1. **Client** 🧑‍💻: Sends requests to the server to perform operations and waits for the server's response.
+2. **Server** 🖥️: Receives requests from the client, processes them using specific services, and sends back the results.
+3. **Common** 🔗: Contains shared code used by both the client and server for communication (sending and receiving messages via sockets).
 
 ### Key Operations:
 - **setI(int ni)**: Sets the value of a variable `i` on the server and returns the old value of `i`.
