@@ -29,11 +29,6 @@ The project is divided into the following packages:
 ### 3. **common** 
 - **Service.java**: A shared class for both the client and server to handle socket communication (sending and receiving messages).
 
-## Requirements
-
-- JDK 8 or higher
-- Basic knowledge of Java and socket programming
-
 ## Usage
 
 ### Running the Server
